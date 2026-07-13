@@ -1,0 +1,138 @@
+school_id,school_name,school_type,milieu,province,region,capacity,num_teachers,infrastructure_score,digital_equipment,year_founded
+SCH001,Collège Hassan II,Public,Rural,Casablanca,Casablanca-Settat,442,21,7.4,Partiel,1980
+SCH002,Lycée Al Farabi,Privé,Urbain,Casablanca,Casablanca-Settat,523,29,6.3,Oui,2010
+SCH003,Collège Ibn Battuta,Public,Rural,Casablanca,Casablanca-Settat,903,32,8.3,Oui,1985
+SCH004,Collège Hassan II,Privé,Rural,Mohammedia,Casablanca-Settat,1081,36,3.7,Non,1981
+SCH005,École Secondaire Atlas,Privé,Rural,Mohammedia,Casablanca-Settat,344,44,6.5,Non,1980
+SCH006,Collège Oued Ziz,Privé,Rural,Mohammedia,Casablanca-Settat,371,17,7.3,Non,1980
+SCH007,Institut Mohammed V,Public,Urbain,Mohammedia,Casablanca-Settat,764,55,8.4,Oui,1998
+SCH008,École Secondaire Oued Ziz,Privé,Urbain,Mohammedia,Casablanca-Settat,999,56,3.5,Partiel,1985
+SCH009,Institut Averroès,Public,Urbain,Mohammedia,Casablanca-Settat,576,55,7.5,Oui,1995
+SCH010,École Secondaire Averroès,Public,Urbain,Settat,Casablanca-Settat,574,19,4.4,Partiel,1995
+SCH011,Institut Al Amal,Public,Rural,Settat,Casablanca-Settat,958,44,3.9,Oui,1990
+SCH012,Institut Al Kindi,Privé,Rural,Settat,Casablanca-Settat,524,23,6.3,Oui,1978
+SCH013,Institut Moulay Youssef,Public,Urbain,Berrechid,Casablanca-Settat,365,39,5.5,Non,2008
+SCH014,Lycée Al Massira,Privé,Urbain,Berrechid,Casablanca-Settat,849,32,8.0,Non,1982
+SCH015,Collège Ibn Battuta,Privé,Rural,Berrechid,Casablanca-Settat,303,31,9.3,Oui,2007
+SCH016,Collège Al Kindi,Privé,Urbain,Rabat,Rabat-Salé-Kénitra,1080,25,6.5,Partiel,1975
+SCH017,Lycée Al Farabi,Privé,Rural,Rabat,Rabat-Salé-Kénitra,671,34,4.6,Oui,2011
+SCH018,Institut Al Wifaq,Public,Urbain,Rabat,Rabat-Salé-Kénitra,370,49,8.0,Oui,2005
+SCH019,Collège Al Amal,Privé,Rural,Salé,Rabat-Salé-Kénitra,852,59,4.3,Non,2000
+SCH020,Institut Al Farabi,Privé,Rural,Salé,Rabat-Salé-Kénitra,553,29,3.4,Oui,2012
+SCH021,Lycée Al Farabi,Public,Urbain,Salé,Rabat-Salé-Kénitra,1024,55,3.4,Oui,1977
+SCH022,Collège Mohammed V,Privé,Urbain,Salé,Rabat-Salé-Kénitra,985,46,4.4,Oui,2011
+SCH023,Institut Hassan II,Public,Rural,Kénitra,Rabat-Salé-Kénitra,396,21,7.3,Non,2002
+SCH024,Lycée Al Massira,Privé,Rural,Kénitra,Rabat-Salé-Kénitra,969,56,3.6,Non,1996
+SCH025,Collège Hassan II,Public,Urbain,Kénitra,Rabat-Salé-Kénitra,849,43,3.9,Oui,1992
+SCH026,Lycée Ibn Battuta,Privé,Urbain,Kénitra,Rabat-Salé-Kénitra,1127,50,3.6,Partiel,2009
+SCH027,Collège Ibn Khaldoun,Public,Urbain,Kénitra,Rabat-Salé-Kénitra,716,46,6.1,Non,1978
+SCH028,Lycée Averroès,Public,Rural,Kénitra,Rabat-Salé-Kénitra,571,44,4.9,Partiel,2010
+SCH029,École Secondaire Hassan II,Public,Urbain,Skhirate,Rabat-Salé-Kénitra,359,52,7.8,Oui,1995
+SCH030,Institut Al Biruni,Public,Urbain,Skhirate,Rabat-Salé-Kénitra,1173,48,4.0,Partiel,1980
+SCH031,Lycée Al Massira,Public,Urbain,Skhirate,Rabat-Salé-Kénitra,1182,30,5.6,Partiel,1990
+SCH032,Institut Al Massira,Public,Urbain,Skhirate,Rabat-Salé-Kénitra,897,51,6.4,Non,1988
+SCH033,École Secondaire Averroès,Privé,Urbain,Skhirate,Rabat-Salé-Kénitra,434,57,7.2,Non,1995
+SCH034,Institut Moulay Youssef,Public,Urbain,Skhirate,Rabat-Salé-Kénitra,876,21,3.5,Oui,2007
+SCH035,Lycée Al Amal,Public,Rural,Fès,Fès-Meknès,550,38,4.9,Non,2009
+SCH036,École Secondaire Al Amal,Privé,Urbain,Fès,Fès-Meknès,979,21,9.1,Oui,1991
+SCH037,Collège Mohammed V,Public,Urbain,Fès,Fès-Meknès,588,53,4.4,Non,1988
+SCH038,École Secondaire Al Amal,Privé,Rural,Fès,Fès-Meknès,1166,18,3.6,Non,1992
+SCH039,École Secondaire Atlas,Public,Urbain,Fès,Fès-Meknès,433,55,9.4,Oui,2003
+SCH040,Lycée Al Amal,Public,Urbain,Meknès,Fès-Meknès,1007,24,6.5,Non,2012
+SCH041,Collège Ibn Sina,Public,Rural,Meknès,Fès-Meknès,615,38,8.8,Oui,1997
+SCH042,Lycée Al Kindi,Public,Urbain,Meknès,Fès-Meknès,1098,50,8.7,Non,2014
+SCH043,Collège Atlas,Public,Urbain,Meknès,Fès-Meknès,1130,26,8.7,Oui,1986
+SCH044,Collège Mohammed V,Privé,Rural,Meknès,Fès-Meknès,463,59,3.7,Oui,2005
+SCH045,Institut Al Kindi,Public,Urbain,Meknès,Fès-Meknès,612,29,4.4,Partiel,1987
+SCH046,École Secondaire Al Wifaq,Privé,Rural,Ifrane,Fès-Meknès,371,32,5.3,Partiel,2000
+SCH047,Lycée Al Farabi,Privé,Rural,Ifrane,Fès-Meknès,1198,31,4.2,Non,1977
+SCH048,Institut Al Kindi,Public,Rural,Ifrane,Fès-Meknès,1046,35,5.8,Partiel,1982
+SCH049,Collège Mohammed V,Privé,Rural,Ifrane,Fès-Meknès,345,60,5.8,Partiel,2009
+SCH050,École Secondaire Averroès,Public,Rural,Ifrane,Fès-Meknès,371,57,9.0,Partiel,1995
+SCH051,École Secondaire Al Biruni,Public,Rural,Ifrane,Fès-Meknès,616,57,5.7,Non,1993
+SCH052,Institut Al Massira,Public,Rural,Taza,Fès-Meknès,1066,26,7.0,Non,2000
+SCH053,École Secondaire Hassan II,Public,Rural,Taza,Fès-Meknès,740,52,6.9,Non,2004
+SCH054,Collège Al Biruni,Privé,Rural,Taza,Fès-Meknès,784,25,7.3,Non,2007
+SCH055,Collège Al Massira,Privé,Urbain,Taza,Fès-Meknès,617,29,8.2,Oui,1976
+SCH056,Lycée Ibn Battuta,Public,Rural,Marrakech,Marrakech-Safi,724,55,6.7,Partiel,1999
+SCH057,Collège Ibn Khaldoun,Privé,Rural,Marrakech,Marrakech-Safi,971,59,3.0,Oui,2002
+SCH058,Institut Ibn Sina,Public,Urbain,Marrakech,Marrakech-Safi,870,30,9.0,Oui,2004
+SCH059,Institut Moulay Youssef,Privé,Rural,Safi,Marrakech-Safi,1134,47,5.8,Partiel,2003
+SCH060,Institut Mohammed V,Public,Rural,Safi,Marrakech-Safi,1069,30,8.5,Non,2008
+SCH061,École Secondaire Ibn Battuta,Privé,Urbain,Safi,Marrakech-Safi,379,60,4.9,Non,1996
+SCH062,Collège Ibn Khaldoun,Privé,Urbain,Safi,Marrakech-Safi,536,39,7.5,Partiel,1988
+SCH063,École Secondaire Al Biruni,Privé,Rural,El Kelaa,Marrakech-Safi,777,41,3.4,Non,1999
+SCH064,Institut Ibn Sina,Public,Rural,El Kelaa,Marrakech-Safi,660,34,7.9,Non,2009
+SCH065,Collège Mohammed V,Public,Rural,El Kelaa,Marrakech-Safi,746,46,3.2,Non,2000
+SCH066,Collège Moulay Youssef,Privé,Rural,Essaouira,Marrakech-Safi,846,16,8.9,Partiel,2011
+SCH067,Lycée Al Massira,Public,Rural,Essaouira,Marrakech-Safi,738,23,8.6,Oui,1978
+SCH068,Institut Al Kindi,Privé,Rural,Essaouira,Marrakech-Safi,516,44,5.1,Non,1992
+SCH069,École Secondaire Al Wifaq,Privé,Rural,Essaouira,Marrakech-Safi,383,45,3.1,Partiel,1978
+SCH070,Lycée Atlas,Public,Urbain,Tanger,Tanger-Tétouan-Al Hoceïma,331,30,4.3,Oui,2014
+SCH071,Collège Ibn Battuta,Public,Urbain,Tanger,Tanger-Tétouan-Al Hoceïma,985,22,6.7,Oui,2004
+SCH072,Collège Moulay Youssef,Privé,Rural,Tanger,Tanger-Tétouan-Al Hoceïma,921,60,3.7,Oui,1994
+SCH073,École Secondaire Moulay Youssef,Public,Urbain,Tanger,Tanger-Tétouan-Al Hoceïma,993,39,5.6,Partiel,1987
+SCH074,Lycée Oued Ziz,Public,Urbain,Tanger,Tanger-Tétouan-Al Hoceïma,1091,34,8.5,Partiel,1982
+SCH075,École Secondaire Al Farabi,Privé,Rural,Tétouan,Tanger-Tétouan-Al Hoceïma,818,56,5.2,Non,2006
+SCH076,École Secondaire Al Massira,Public,Rural,Tétouan,Tanger-Tétouan-Al Hoceïma,1148,44,7.6,Non,1986
+SCH077,Institut Averroès,Privé,Rural,Tétouan,Tanger-Tétouan-Al Hoceïma,1145,52,4.7,Oui,1980
+SCH078,Institut Moulay Youssef,Privé,Urbain,Al Hoceïma,Tanger-Tétouan-Al Hoceïma,924,57,5.5,Oui,2006
+SCH079,Institut Hassan II,Privé,Urbain,Al Hoceïma,Tanger-Tétouan-Al Hoceïma,663,31,5.2,Partiel,1992
+SCH080,Lycée Hassan II,Public,Urbain,Al Hoceïma,Tanger-Tétouan-Al Hoceïma,1037,41,6.2,Oui,2005
+SCH081,Lycée Al Farabi,Privé,Rural,Al Hoceïma,Tanger-Tétouan-Al Hoceïma,601,29,5.6,Oui,1994
+SCH082,École Secondaire Averroès,Privé,Rural,Al Hoceïma,Tanger-Tétouan-Al Hoceïma,1063,50,5.2,Partiel,2004
+SCH083,Collège Al Farabi,Privé,Rural,Larache,Tanger-Tétouan-Al Hoceïma,1038,27,5.1,Partiel,2009
+SCH084,Collège Oued Ziz,Public,Urbain,Larache,Tanger-Tétouan-Al Hoceïma,795,32,7.7,Partiel,2013
+SCH085,Collège Mohammed V,Privé,Urbain,Larache,Tanger-Tétouan-Al Hoceïma,532,38,4.2,Oui,2009
+SCH086,Lycée Ibn Sina,Public,Rural,Larache,Tanger-Tétouan-Al Hoceïma,866,33,7.5,Oui,2015
+SCH087,Lycée Moulay Youssef,Privé,Urbain,Larache,Tanger-Tétouan-Al Hoceïma,591,45,6.1,Non,1986
+SCH088,Lycée Al Wifaq,Privé,Rural,Agadir,Souss-Massa,366,40,6.2,Partiel,2015
+SCH089,Collège Atlas,Public,Urbain,Agadir,Souss-Massa,876,34,3.6,Oui,1982
+SCH090,Institut Ibn Battuta,Privé,Urbain,Agadir,Souss-Massa,753,34,8.6,Non,1994
+SCH091,Collège Al Massira,Public,Rural,Tiznit,Souss-Massa,516,31,7.3,Oui,1990
+SCH092,Lycée Ibn Khaldoun,Public,Rural,Tiznit,Souss-Massa,302,41,5.9,Partiel,2005
+SCH093,Lycée Hassan II,Privé,Rural,Tiznit,Souss-Massa,595,60,4.8,Non,1979
+SCH094,Institut Al Farabi,Privé,Urbain,Taroudant,Souss-Massa,857,29,7.2,Non,1984
+SCH095,Collège Atlas,Public,Urbain,Taroudant,Souss-Massa,614,53,7.9,Partiel,1993
+SCH096,Institut Oued Ziz,Privé,Urbain,Taroudant,Souss-Massa,611,59,5.6,Non,2007
+SCH097,Lycée Moulay Youssef,Privé,Rural,Taroudant,Souss-Massa,340,42,7.8,Partiel,1991
+SCH098,Lycée Atlas,Public,Urbain,Chtouka,Souss-Massa,988,32,6.7,Oui,2005
+SCH099,Collège Moulay Youssef,Privé,Rural,Chtouka,Souss-Massa,746,55,8.3,Oui,2005
+SCH100,École Secondaire Al Kindi,Privé,Rural,Chtouka,Souss-Massa,986,21,8.6,Non,2001
+SCH101,Lycée Ibn Battuta,Privé,Rural,Béni Mellal,Béni Mellal-Khénifra,390,35,4.6,Oui,2000
+SCH102,Institut Ibn Sina,Public,Rural,Béni Mellal,Béni Mellal-Khénifra,492,48,5.4,Non,2015
+SCH103,Collège Mohammed V,Privé,Urbain,Béni Mellal,Béni Mellal-Khénifra,862,23,9.0,Non,2006
+SCH104,Collège Oued Ziz,Public,Urbain,Béni Mellal,Béni Mellal-Khénifra,462,34,6.6,Partiel,2001
+SCH105,Lycée Ibn Battuta,Public,Urbain,Béni Mellal,Béni Mellal-Khénifra,420,56,8.4,Non,1993
+SCH106,Institut Ibn Battuta,Privé,Rural,Béni Mellal,Béni Mellal-Khénifra,549,44,6.6,Non,1987
+SCH107,Institut Al Kindi,Public,Rural,Khénifra,Béni Mellal-Khénifra,1106,47,4.7,Oui,1993
+SCH108,Collège Ibn Battuta,Privé,Rural,Khénifra,Béni Mellal-Khénifra,851,45,5.2,Partiel,2009
+SCH109,École Secondaire Al Wifaq,Privé,Rural,Khénifra,Béni Mellal-Khénifra,493,59,4.6,Non,1989
+SCH110,École Secondaire Oued Ziz,Privé,Urbain,Khénifra,Béni Mellal-Khénifra,784,60,8.9,Non,1999
+SCH111,Lycée Ibn Khaldoun,Privé,Rural,Azilal,Béni Mellal-Khénifra,814,52,5.2,Oui,2003
+SCH112,Institut Ibn Sina,Public,Rural,Azilal,Béni Mellal-Khénifra,1039,24,5.7,Partiel,1984
+SCH113,Institut Atlas,Public,Rural,Azilal,Béni Mellal-Khénifra,571,36,7.1,Non,1980
+SCH114,Institut Al Kindi,Privé,Rural,Azilal,Béni Mellal-Khénifra,941,60,8.8,Non,2009
+SCH115,École Secondaire Hassan II,Public,Urbain,Fquih Ben Salah,Béni Mellal-Khénifra,1064,20,5.8,Oui,2015
+SCH116,Collège Oued Ziz,Public,Rural,Fquih Ben Salah,Béni Mellal-Khénifra,606,16,3.3,Oui,1993
+SCH117,Institut Ibn Khaldoun,Privé,Rural,Fquih Ben Salah,Béni Mellal-Khénifra,550,48,5.7,Partiel,1986
+SCH118,Institut Moulay Youssef,Public,Urbain,Oujda,Oriental,999,30,6.2,Partiel,1984
+SCH119,École Secondaire Ibn Battuta,Public,Rural,Oujda,Oriental,561,57,3.1,Non,1993
+SCH120,Institut Al Kindi,Public,Urbain,Oujda,Oriental,901,34,7.2,Non,1991
+SCH121,Collège Averroès,Privé,Rural,Oujda,Oriental,1173,45,3.7,Non,2011
+SCH122,Lycée Al Wifaq,Privé,Rural,Nador,Oriental,974,40,4.8,Partiel,1978
+SCH123,Collège Moulay Youssef,Privé,Rural,Nador,Oriental,1121,37,4.4,Oui,2014
+SCH124,Lycée Al Amal,Privé,Urbain,Nador,Oriental,942,56,3.3,Non,1977
+SCH125,Lycée Al Amal,Privé,Urbain,Nador,Oriental,602,35,7.9,Oui,1987
+SCH126,École Secondaire Al Wifaq,Public,Rural,Nador,Oriental,468,31,8.9,Non,1993
+SCH127,Lycée Ibn Khaldoun,Public,Rural,Berkane,Oriental,1072,29,8.6,Partiel,2000
+SCH128,Institut Ibn Sina,Privé,Urbain,Berkane,Oriental,570,49,3.8,Non,1991
+SCH129,Lycée Al Massira,Privé,Rural,Berkane,Oriental,539,45,3.2,Partiel,1995
+SCH130,Institut Al Amal,Public,Urbain,Berkane,Oriental,1017,34,7.2,Oui,1983
+SCH131,École Secondaire Ibn Battuta,Public,Urbain,Berkane,Oriental,418,21,4.5,Partiel,1983
+SCH132,École Secondaire Al Massira,Privé,Rural,Taourirt,Oriental,1060,59,9.1,Non,2012
+SCH133,Institut Al Massira,Public,Rural,Taourirt,Oriental,401,46,7.0,Non,1977
+SCH134,Collège Ibn Battuta,Privé,Rural,Taourirt,Oriental,755,30,8.6,Oui,1998
+SCH135,Lycée Averroès,Privé,Rural,Taourirt,Oriental,582,27,9.3,Non,1980
+SCH136,Lycée Ibn Sina,Public,Rural,Taourirt,Oriental,1105,36,4.6,Oui,2011
+SCH137,Lycée Al Wifaq,Public,Rural,Taourirt,Oriental,1083,50,4.3,Oui,1989

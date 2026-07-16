@@ -1,4 +1,4 @@
-grade_level,total_eleves,admis,taux_reussite_pct
+grade_level,total,admis,taux_%
 1ère Bac,244,180,73.77
 2ème Bac,271,208,76.75
 3ème Collège,239,184,76.99

@@ -1,8 +1,5 @@
-version: '3.8'
-
 services:
 
-  # Airflow database (stores DAG runs, logs, etc.)
   postgres:
     image: postgres:13
     environment:
@@ -11,16 +8,41 @@ services:
       POSTGRES_DB: airflow
     volumes:
       - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 5
 
-  # Airflow webserver (the UI you see in browser)
-  airflow-webserver:
+  airflow-init:
     image: apache/airflow:2.7.0
     depends_on:
-      - postgres
+      postgres:
+        condition: service_healthy
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+      AIRFLOW__WEBSERVER__SECRET_KEY: 'schoolinsight_secret_key_2026'
+    volumes:
+      - ../dags:/opt/airflow/dags
+      - ../src:/opt/airflow/src
+      - ../data:/opt/airflow/data
+    command: >
+      bash -c "airflow db migrate &&
+               airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com"
+
+  airflow-webserver:
+    image: apache/airflow:2.7.0
+    depends_on:
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+      AIRFLOW__WEBSERVER__SECRET_KEY: 'schoolinsight_secret_key_2026'
     volumes:
       - ../dags:/opt/airflow/dags
       - ../src:/opt/airflow/src
@@ -28,21 +50,26 @@ services:
     ports:
       - "8082:8080"
     command: webserver
+    restart: always
 
-  # Airflow scheduler (runs the DAGs)
   airflow-scheduler:
     image: apache/airflow:2.7.0
     depends_on:
-      - postgres
+      postgres:
+        condition: service_healthy
+      airflow-init:
+        condition: service_completed_successfully
     environment:
       AIRFLOW__CORE__EXECUTOR: LocalExecutor
       AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
       AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+      AIRFLOW__WEBSERVER__SECRET_KEY: 'schoolinsight_secret_key_2026'
     volumes:
       - ../dags:/opt/airflow/dags
       - ../src:/opt/airflow/src
       - ../data:/opt/airflow/data
     command: scheduler
+    restart: always
 
 volumes:
   postgres_data:

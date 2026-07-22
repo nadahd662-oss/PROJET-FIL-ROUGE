@@ -3,7 +3,8 @@ from airflow.operators.python import PythonOperator
 from datetime import datetime
 import sys
 
-sys.path.insert(0, '/opt/airflow/dags')
+# Point to our src folder
+sys.path.insert(0, '/opt/airflow/src')
 
 from bronze_ingest import ingest_bronze
 from silver_clean import clean_silver
@@ -38,5 +39,4 @@ with DAG(
         python_callable=load_to_snowflake
     )
 
-    # Pipeline order
     task_bronze >> task_silver >> task_gold >> task_snowflake
